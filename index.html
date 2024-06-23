@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halal Spotify - Being Halal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <nav>
+    <ul>
+      <li id="brand"><img src="logo.png" alt="Halal Spotify">Halal Spotify</li>
+      <li>Home</li>
+      <li>About</li>
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="naatList">
+      <h1>Heart Touching Naats-Top Ten</h1>
+      <div class="naatItemContainer">
+        <div class="naatItem">
+          <img src="1i.webp" alt="1">
+          <span class="naatName">Faslon Ko Takalf Hum Se</span>
+          <span class="naatlistplay"><span class="timeS">09:08   <i  id="0" class="naatPlay fa-regular fa-circle-play"></i></span></span>
+        </div>
+        <div class="naatItem">
+          <img src="2i.webp" alt="2">
+          <span class="naatName">Humne Aankhon Se Dekha</span>
+          <span class="naatlistplay"><span class="timeS">04:27   <i id="1" class="naatPlay fa-regular fa-circle-play"></i></span></span>
+        </div>
+        <div class="naatItem">
+          <img src="3i.webp" alt="3">
+          <span class="naatName">Meri Ulfat Madine Se Youn</span>
+          <span class="naatlistplay"><span class="timeS">08:03   <i id="2" class="naatPlay fa-regular fa-circle-play"></i></span></span>
+        </div>
+        <div class="naatItem">
+          <img src="4i.webp" alt="4">
+          <span class="naatName">Junaid Jamshed Naat</span>
+          <span class="naatlistplay"><span class="timeS">04:36   <i id="3" class="naatPlay fa-regular fa-circle-play"></i></span></span>
+        </div>
+        <div class="naatItem">
+          <img src="5i.webp" alt="5">
+          <span class="naatName">Bibi Amna Ke Phool</span>
+          <span class="naatlistplay"><span class="timeS">06:48   <i id="4" class="naatPlay fa-regular fa-circle-play"></i></span></span>
+        </div>
+        <div class="naatItem">
+          <img src="6i.webp" alt="6">
+          <span class="naatName">Mera Dil Badal De</span>
+          <span class="naatlistplay"><span class="timeS">06:03   <i id="5" class="naatPlay fa-regular fa-circle-play"></i></span></span>
+        </div>
+        <div class="naatItem">
+          <img src="7i.jpg" alt="7">
+          <span class="naatName">Mere Nabi Pyare Nabi</span>
+          <span class="naatlistplay"><span class="timeS">05:44   <i id="6" class="naatPlay fa-regular fa-circle-play"></i></span></span>
+        </div>
+        <div class="naatItem">
+          <img src="8i.webp" alt="8">
+          <span class="naatName">Kabay Ki Ronaq</span>
+          <span class="naatlistplay"><span class="timeS">06:32   <i id="7" class="naatPlay fa-regular fa-circle-play"></i></span></span>
+        </div>
+        <div class="naatItem">
+          <img src="9i.webp" alt="9">
+          <span class="naatName">Tajdar-e-Haram</span>
+          <span class="naatlistplay"><span class="timeS">09:56   <i id="8" class="naatPlay fa-regular fa-circle-play"></i></span></span>
+        </div>
+        <div class="naatItem">
+          <img src="10i.webp" alt="10">
+          <span class="naatName">Hum Ko Bulana Ya</span>
+          <span class="naatlistplay"><span class="timeS">11:37   <i id="9" class="naatPlay fa-regular fa-circle-play"></i></span></span>
+        </div>
+      </div>
+    </div>
+    <div class="naatBanner"></div>
+  </div>
+
+  <div class="bottom">
+    <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+    <div class="icons">
+      <!-- fontawosome icons -->
+      <i class="fa-solid fa-3x fa-backward-step" id="'previous"></i>
+      <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+      <i class="fa-solid fa-3x fa-forward-step"  id="next"></i>
+    </div>
+    <div class="naatInfo">
+      <img src="playing.gif" width="42px" alt="playing" id="gif"> <span id="masterNaatName">Faslon Ko Takalf Hum Se</span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
