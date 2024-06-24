@@ -120,8 +120,14 @@ border-radius: 34px;
 }
 
 @media only screen and (max-width: 600px) {
-  .naatItem {
-    background-color: lightblue;
-    width: 100%;
+  .container{
+    width: 83%;
+    border-radius: 0%;
+  }
+  .icons{
+    margin-top: 50px;
+  }
+  .naatInfo{
+    top: 40px;
   }
 }
